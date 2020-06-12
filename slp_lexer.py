@@ -7,13 +7,13 @@ class BasicLexer(Lexer):
     literals = { '=', '+', '-', '/', '*', '(', ')', ',', ';' }
 
     # Define tokens
-    IF = r'i'
-    PRINT = r'p'
-    THEN = r't'
-    ELSE = r'e'
-    FOR = r'f'
-    FUN = r'fun'
-    TO = r't'
+    IF = r'II'
+    PRINT = r'PP'
+    THEN = r'TH'
+    ELSE = r'EE'
+    FOR = r'FF'
+    FUN = r'FU'
+    TO = r'TO'
     ARROW = r'->'
     NAME = r'[a-zA-Z_][a-zA-Z0-9_]*'
     STRING = r'\".*?\"'
